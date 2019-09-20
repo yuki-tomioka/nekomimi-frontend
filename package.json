@@ -6,7 +6,8 @@
   "author": "Yuki Tomioka <yuki.tomioka.1016@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:dev": "webpack --config webpack.config.js"
+    "build:dev": "webpack --config webpack.config.js",
+    "serve": "webpack-dev-server --config webpack.config.js"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",
