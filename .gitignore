@@ -3,3 +3,6 @@ node_modules/
 
 # dist directory
 dist/
+
+# log
+yarn-error.log
