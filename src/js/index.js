@@ -1,12 +1,11 @@
-(function ($, window, document, undefined) {
-  var __ = $(window);
+export class Hello {
+  constructor(name) {
+    this.say(name);
+  }
 
+  say(name) {
+    console.log(`Hello ${name} World!`);
+  }
+}
 
-  /**
-   * ------------------------------------------------------------
-   * Headline top-3/bottom-0
-   * ------------------------------------------------------------
-   */
-
-
-})(jQuery, window, document);
+export default new Hello('Nekomimi');
