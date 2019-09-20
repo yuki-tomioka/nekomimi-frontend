@@ -12,4 +12,4 @@ export class Hello {
   }
 }
 
-export default new Hello('Nekomimi');
+export default new Hello('Nekomimino');
