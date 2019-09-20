@@ -52,6 +52,9 @@ module.exports = {
   plugins: [
     // hot-reloadを有効にするプラグインを追加
     new webpack.HotModuleReplacementPlugin(), // HtmlWebpackPluginを追加
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      // templateの設定を追加
+      template: path.resolve(src, 'html/index.html')
+    })
   ]
 };
