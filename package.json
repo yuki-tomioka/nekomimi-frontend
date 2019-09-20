@@ -5,6 +5,9 @@
   "repository": "https://github.com/yuki-tomioka/nekomimi-frontend.git",
   "author": "Yuki Tomioka <yuki.tomioka.1016@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack --config webpack.config.js"
+  },
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
