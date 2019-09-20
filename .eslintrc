@@ -1,5 +1,6 @@
 {
-  "extends": ["airbnb"], // airbnbのルールを継承
+  "extends": ["airbnb", "plugin:flowtype/recommended"], // airbnbのルールを継承
+  "plugins": ["flowtype"],
   "env": {
     "browser": true, // ブラウザのグローバル変数を有効化
     "es6": true // es6(es2015)の構文を有効化
