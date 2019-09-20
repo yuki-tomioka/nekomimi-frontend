@@ -1,0 +1,8 @@
+{
+  "name": "nekomimi-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuki-tomioka/nekomimi-frontend.git",
+  "author": "Yuki Tomioka <yuki.tomioka.1016@gmail.com>",
+  "license": "MIT"
+}
