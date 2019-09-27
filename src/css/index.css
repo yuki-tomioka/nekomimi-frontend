@@ -1,5 +1,9 @@
-body {
-  color: skyblue;
+:root {
+  --primary-color: skyblue;
+}
+
+html {
+  color: var(--primary-color);
   font-size: 0.9rem;
   animation: foo;
 }
