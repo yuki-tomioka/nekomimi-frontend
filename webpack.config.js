@@ -47,7 +47,20 @@ module.exports = {
         test: /\.css$/,
         exclude: /node_modules/,
         // loaderを複数使用する場合はuseを使う
-        use: [MiniCSSExtractPlugin.loader, 'css-loader', 'postcss-loader']
+        use: [
+          MiniCSSExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            // CSSModulesのオプションを追加
+            options: {
+              importLoaders: 1,
+              modules: {
+                localIdentName: '[name]__[local]--[hash:base64:5]'
+              },
+            }
+          },
+          'postcss-loader'
+        ]
       }
     ]
   },
