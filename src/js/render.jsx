@@ -5,6 +5,9 @@ import ReactDOM from 'react-dom';
 // <Heading>コンポーネントを読み込む
 import Heading from './heading';
 
+// CSSファイルの読み込み
+import '../css/index.css';
+
 export class Render {
   constructor(targetId: string) {
     // コンポーネントを出力するDOMを取得する
