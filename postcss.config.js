@@ -1,3 +1,3 @@
-modele.exports = {
+module.exports = {
   plugins: {}
 };
