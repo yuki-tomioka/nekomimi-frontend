@@ -3,7 +3,8 @@
   "plugins": ["flowtype"],
   "env": {
     "browser": true, // ブラウザのグローバル変数を有効化
-    "es6": true // es6(es2015)の構文を有効化
+    "es6": true, // es6(es2015)の構文を有効化
+    "jest": true
   },
   "parser": "babel-eslint", // babel-eslintをパーサーに使用
   "parserOptions": {
