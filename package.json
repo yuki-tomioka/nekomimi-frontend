@@ -42,7 +42,6 @@
     "postcss-loader": "^3.0.0",
     "postcss-nesting": "^7.0.1",
     "prettier": "^1.18.2",
-    "react-test-render": "^1.1.2",
     "stylelint": "^11.0.0",
     "stylelint-config-standard": "^19.0.0",
     "webpack": "^4.40.2",
@@ -51,6 +50,6 @@
   },
   "dependencies": {
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.10.1"
   }
 }
