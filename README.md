@@ -1,2 +1,33 @@
 # nekomimi-frontend
-ネコミミでもわかるフロントエンド開発環境構築の学習
+ネコミミでもわかるフロントエンド開発環境構築 (技術の泉シリーズ（NextPublishing）)の学習
+
+## 目次
+第1章　まずは準備から  
+1.1　package.jsonファイルの作成  
+1.2　ディレクトリー構成について  
+1.3　EditorConfigを導入する  
+第2章　JavaScriptを動かす  
+2.1　Babel  
+2.2　webpack  
+第3章　JavaScriptのためのパワフルなツール  
+3.1　ESLint  
+3.2　Prettier  
+3.3　Flow  
+第4章　Reactをはじめる  
+4.1　Reactをブラウザーで表示させるための準備  
+4.2　最初で最後のReactコンポーネント  
+第5章　CSSを適用する  
+5.1　webpackの設定  
+5.2　CSSファイルの作成  
+5.3　StyleLint  
+5.4　PostCSS  
+第6章　ReactとCSSの連携  
+6.1　CSSをコンポーネントに適用する  
+6.2　CSSModules  
+第7章　爆速でテストを書く  
+7.1　Jestで始めるユニットテスト  
+7.2　コンポーネントはスナップショットテストで  
+7.3　コードカバレッジを見る  
+第8章　プロダクションコードの生成  
+8.1　webpackの設定を分離する  
+8.2　CSSをminifyする  
