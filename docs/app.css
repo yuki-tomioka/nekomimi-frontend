@@ -1,0 +1,25 @@
+.heading__text--1s4bf {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: skyblue;
+}
+
+html {
+  color: skyblue;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  -webkit-animation: index__foo--3SK93;
+          animation: index__foo--3SK93;
+}
+
+.index__foo--3SK93 {
+  color: white
+}
+
+.index__foo--3SK93 .index__bar--tQU3G {
+    color: blue;
+  }
+
